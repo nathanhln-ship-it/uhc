@@ -8,6 +8,7 @@ dependencies {
   annotationProcessor(libs.lombok)
   compileOnly(libs.packetevents.spigot)
   compileOnly(libs.spigot)
+  compileOnly("net.luckperms:api:5.4")
 }
 
 tasks {
