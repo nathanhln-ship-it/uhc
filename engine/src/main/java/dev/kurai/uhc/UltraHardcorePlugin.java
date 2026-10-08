@@ -18,12 +18,6 @@ public final class UltraHardcorePlugin extends JavaPlugin {
   @Override
   public void onEnable() {
     this.ultraHardcore.onEnable();
-
-    // Enregistrement des interactions du Lobby
-    this.getServer().getPluginManager().registerEvents(new dev.kurai.uhc.lobby.listener.LobbyInteractListener(), this);
-
-    // Enregistrement de la connexion pour donner les items
-    this.getServer().getPluginManager().registerEvents(new dev.kurai.uhc.lobby.listener.LobbyJoinListener(), this);
   }
 
   @Override
